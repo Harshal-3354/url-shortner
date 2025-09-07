@@ -80,7 +80,7 @@ const Home: React.FC = () => {
   };
 
   const getFullShortUrl = (shortUrl: string) => {
-    return `http://localhost:5000/${shortUrl}`;
+    return `https://snipit-server.onrender.com/${shortUrl}`;
   };
 
   return (
