@@ -102,7 +102,7 @@ const Dashboard: React.FC = () => {
   };
 
   const getFullShortUrl = (shortUrl: string) => {
-    return `${window.location.origin}/${shortUrl}`;
+    return `http://localhost:5000/${shortUrl}`;
   };
 
   const formatDate = (dateString: string) => {

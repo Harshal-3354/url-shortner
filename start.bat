@@ -1,9 +1,0 @@
-@echo off
-echo Starting URL Shortener...
-echo.
-echo Installing dependencies...
-call npm run install-all
-echo.
-echo Starting development servers...
-call npm run dev
-pause
